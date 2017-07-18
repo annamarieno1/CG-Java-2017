@@ -1,6 +1,5 @@
 
 /**
- * Write a description of class Poem here.
  * This is the homework for the first class of Java CoderGirl course. 
  * @author (Annamaria Szakonyi)
  * @version (version 1, 2017/07/14)
@@ -13,7 +12,7 @@ public class Poem
 
     {
         /**I'm not printing System.out because the import static is already there to shorten it*/
-        /**I will need to find the way to do extra line of space between the paragraphs*/
+
         out.println("JABBERWOCKY\n");
 
         out.println("'Twas brillig, and the slithy toves");
