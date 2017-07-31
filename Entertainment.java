@@ -1,4 +1,5 @@
 
+
 /**
  *
  * @author (Annamaria Szakonyi)
@@ -76,9 +77,14 @@ public class Entertainment
                 out.println("Error: Your mood answer wasn't one of the valid options.");
             }
         }
+        else if (mood.equals("Exercise") || mood.equals("exercise") || mood.equals("Party") ||  mood.equals("party") || mood.equals("Quiet") ||  mood.equals("quiet"))
+        {
+            out.println("Error: Your weather answer wasn't one of the valid options.");
+        }
         else
         {
-           out.println("Error: Your weather answer wasn't one of the valid options.");
+            out.println("Error: Your weather answer wasn't one of the valid options.");
+            out.println("Error: Your mood answer wasn't one of the valid options.");
         }    
     }        
 }
